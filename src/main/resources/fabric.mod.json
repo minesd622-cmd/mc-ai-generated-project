@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "client_mod",
+  "version": "${version}",
+  "name": "Client Mod",
+  "description": "A mod with custom items and commands.",
+  "authors": ["Author"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/client_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.client.ClientMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
